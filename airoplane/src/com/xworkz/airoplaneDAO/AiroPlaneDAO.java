@@ -78,6 +78,7 @@ public class AiroPlaneDAO {
 			
 		}
 		finally {
+			//close all the objects
 			sess.close();
 		}
 		return 0;
